@@ -63,7 +63,7 @@ db.connect((err) => {
 //untuk verifikasi code admin
 app.post('/add', (req, res) => {
   // Kode admin yang benar
-  const validKodeAdmin = 'gajidikit'; // Ganti dengan kode admin yang sesuai
+  const validKodeAdmin = 'masukkan password di sini'; // Ganti dengan kode admin yang sesuai
 
   // Cek apakah kode admin yang dikirim sesuai
   if (req.body.kode_admin !== validKodeAdmin) {
